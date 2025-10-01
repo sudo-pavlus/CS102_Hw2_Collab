@@ -46,7 +46,7 @@ public class Card
     
     public boolean equals( Card c)
     {
-        // ToDo
+        if (this.toString().equals(c.toString())) return true;
         return false;
     }
     
